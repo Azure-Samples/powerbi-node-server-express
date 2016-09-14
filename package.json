@@ -1,0 +1,42 @@
+{
+  "name": "powerbi-node-server-express",
+  "version": "0.0.1",
+  "description": "Sample express server to demonstrate building REST API for embedding reports.",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "tsc",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "typings": "typings",
+    "prepublish": "typings install && tsc"
+  },
+  "keywords": [
+    "microsoft",
+    "powerbi",
+    "embedded",
+    "server",
+    "rest",
+    "api",
+    "node",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azure-Samples/powerbi-node-server-express.git"
+  },
+  "homepage": "http://powerbiembedapinode.azurewebsites.net/",
+  "author": "Microsoft Power BI Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "ms-rest": "^1.15.0",
+    "powerbi-api": "^1.0.1"
+  },
+  "devDependencies": {
+    "tslint": "^3.15.1",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3"
+  }
+}

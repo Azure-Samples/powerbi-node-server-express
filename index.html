@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>powerbi-node-server-express</title>
+    <style>
+        body {
+            font-family: Arial, Tahoma, Verdana;
+            padding: 2em;
+        }
+    </style>
+</head>
+<body>
+  <h1>powerbi - node - server - express</h1>
+  <p>Sample express server to demonstrate building REST API for embedding reports.</p>
+
+  <p>This json api could be consumed by various types of clients.</p>
+
+  <h2>Example requests:</h2>
+  <ul>
+      <li>
+          <p>
+              All reports
+              <br /><a href="/api/reports"><code>/api/reports</code></a>
+          </p>
+      </li>
+      <li>
+          <p>
+              Find single report 
+              <br /><a href="/api/reports/c52af8ab-0468-4165-92af-dc39858d66ad"><code>/api/reports/c52af8ab-0468-4165-92af-dc39858d66ad</code></a>
+              <br /><small>(Note: If you change the workspace collection or workspace id for your own testing purposes this id will not exist and the request will fail)</small>
+          </p>
+      </li>
+  </ul>
+
+</body>
+</html>
